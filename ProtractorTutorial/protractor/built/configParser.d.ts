@@ -25,7 +25,7 @@ export declare class ConfigParser {
      * @param {Object} additionalConfig
      * @param {string} relativeTo the file path to resolve paths against
      */
-    private addConfig_;
+    private addConfig_(additionalConfig, relativeTo);
     /**
      * Public function specialized towards merging in a file's config
      *

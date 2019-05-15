@@ -20,7 +20,7 @@ describe('Actions demo',function(){
             {
                 browser.getAllWindowHandles().then(function(handles)
                 {
-                    browser.switchTo().window(handle[1]);
+                    browser.switchTo().window(handles[1]);
                 })            
             })
 

@@ -191,6 +191,7 @@ function processFilePatterns_(list) {
         return path.resolve(process.cwd(), spec);
     });
 }
+;
 if (argv.specs) {
     argv.specs = processFilePatterns_(argv.specs);
 }
